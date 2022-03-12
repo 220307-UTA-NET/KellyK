@@ -1,0 +1,15 @@
+C:\Revature\KellyK\Dotnet\FirstDotNet\bin\Debug\net6.0\FirstDotNet.exe
+C:\Revature\KellyK\Dotnet\FirstDotNet\bin\Debug\net6.0\FirstDotNet.deps.json
+C:\Revature\KellyK\Dotnet\FirstDotNet\bin\Debug\net6.0\FirstDotNet.runtimeconfig.json
+C:\Revature\KellyK\Dotnet\FirstDotNet\bin\Debug\net6.0\FirstDotNet.dll
+C:\Revature\KellyK\Dotnet\FirstDotNet\bin\Debug\net6.0\FirstDotNet.pdb
+C:\Revature\KellyK\Dotnet\FirstDotNet\obj\Debug\net6.0\FirstDotNet.csproj.AssemblyReference.cache
+C:\Revature\KellyK\Dotnet\FirstDotNet\obj\Debug\net6.0\FirstDotNet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Revature\KellyK\Dotnet\FirstDotNet\obj\Debug\net6.0\FirstDotNet.AssemblyInfoInputs.cache
+C:\Revature\KellyK\Dotnet\FirstDotNet\obj\Debug\net6.0\FirstDotNet.AssemblyInfo.cs
+C:\Revature\KellyK\Dotnet\FirstDotNet\obj\Debug\net6.0\FirstDotNet.csproj.CoreCompileInputs.cache
+C:\Revature\KellyK\Dotnet\FirstDotNet\obj\Debug\net6.0\FirstDotNet.dll
+C:\Revature\KellyK\Dotnet\FirstDotNet\obj\Debug\net6.0\refint\FirstDotNet.dll
+C:\Revature\KellyK\Dotnet\FirstDotNet\obj\Debug\net6.0\FirstDotNet.pdb
+C:\Revature\KellyK\Dotnet\FirstDotNet\obj\Debug\net6.0\FirstDotNet.genruntimeconfig.cache
+C:\Revature\KellyK\Dotnet\FirstDotNet\obj\Debug\net6.0\ref\FirstDotNet.dll
