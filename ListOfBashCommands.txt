@@ -1,3 +1,0 @@
-mkdir:makes a directory
-cd: changes directory[D[D[D[D[D[D[D[D[Dworking directory
-pwd: print working directory ls: lists the contents of a directory

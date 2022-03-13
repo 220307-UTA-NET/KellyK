@@ -1,6 +1,6 @@
 #usr/bin/bash
 
-
+#NumberOfCommands=()
 BashCommands=()
 
 while [ true ] ; do
@@ -9,19 +9,27 @@ while [ true ] ; do
 	if [[ ${answer^^} == "Y" ]]; then
 		read -p $'\nEnter command: \n' command
 		read -p $'\nEnter description: \n' description
+#		NumberOfCommands+=1
+		BashCommands+=($command: $description)
 	elif [[ ${answer^^} == "N" ]]; then
 		break
 	else
 		echo "Invalid response, try again."
 	fi
 
-#	BashCommands+=("$command:$description")
-	BashCommands+=($command: $description)
+#	echo "${#BashCommands[@]}" >> ./ListOfBashCommands.txt
+#	echo "${#NumberOfCommands[@]}" >> ./ListOfBashCommands.txt
+
+	#BashCommands+=($command: $description)
+#	for command in "${BashCommands[*]}"; do
+#        	echo $command >> ./ListOfBashCommands.txt
+#	done
+
 done
 
 
 for command in "${BashCommands[*]}"; do
-	echo $command >> ./ListOfBashCommands.txt
+	echo $command'\n' >> ./ListOfBashCommands.txt
 done
 
 
