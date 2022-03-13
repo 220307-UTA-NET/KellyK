@@ -1,0 +1,16 @@
+pwd:print
+working
+directory
+cd:change
+directory
+touch:creates
+a
+file
+com:another
+command
+$command: $description
+command
+command
+command
+
+
