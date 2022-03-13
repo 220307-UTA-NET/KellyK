@@ -7,7 +7,7 @@ while [ true ] ; do
 	read -p $'\nDo you have a new command to enter? Enter "Y" for yes and "N" for no. \n' answer
 
 	if [[ ${answer^^} == "Y" ]]; then
-		read -p $'Enter command: \n' command
+		read -p $'\nEnter command: \n' command
 		read -p $'\nEnter description: \n' description
 	elif [[ ${answer^^} == "N" ]]; then
 		break
@@ -16,11 +16,11 @@ while [ true ] ; do
 	fi
 
 #	BashCommands+=("$command:$description")
-	BashCommands+=("$command:$description")
+	BashCommands+=($command: $description)
 done
 
 
-for command in ${BashCommands[@]}; do
+for command in "${BashCommands[*]}"; do
 	echo $command >> ./ListOfBashCommands.txt
 done
 

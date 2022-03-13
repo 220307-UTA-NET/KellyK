@@ -20,12 +20,12 @@ while [ true ] ; do
 	BashCommands[$command] = $description
 	#BashList+=("{BashCommands[$command]}:{BashCommands[$description]}"}
 
-	for key in BashCommands[$command];do 
-		
+#	for key in BashCommands[$command];do		
 
 done
 
 
+: '
 for command in ${BashList[@]}; do
 	echo $command >> ./ListOfBashCommands.txt
 done
@@ -45,6 +45,5 @@ while [ true ]; do
 done
 
 echo $'\nEnd of script.'
-
-
+'
 
